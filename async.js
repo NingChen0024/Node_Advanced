@@ -9,6 +9,9 @@ var delay = (seconds) => new Promise((resolve) => {
 })
 
 
+
+
+
 // executing with promise
 const doStuffSequentially = () => Promise.resolve()
   .then(() => console.log('starting'))
